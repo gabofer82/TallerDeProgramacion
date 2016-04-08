@@ -19,3 +19,8 @@ if __name__ == '__main__':
     # Nacho
     suma= 4+5
     print suma
+    #  Guillermo
+d = {'Consonantes' :[m, l, r, p, q]
+    }
+    print d
+

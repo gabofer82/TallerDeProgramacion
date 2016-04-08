@@ -22,3 +22,5 @@ if __name__ == '__main__':
     #  Guillermo
 d = {'Consonantes' :[m, l, r, p, q]
     }
+    print d
+
