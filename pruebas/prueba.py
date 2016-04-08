@@ -14,8 +14,7 @@
 if __name__ == '__main__':
     print "Hola Mundo!"
     print "Un cambio que se agrega..."
-
-    print "BIENVENIDOS"
+    print "mas camgios"
 
     # Nacho
     suma= 4+5
