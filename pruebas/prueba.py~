@@ -14,7 +14,11 @@
 if __name__ == '__main__':
     print "Hola Mundo!"
     print "Un cambio que se agrega..."
-    print "Otro cambio mas..."
+<<<<<<< HEAD
+    print "BIENVENIDOS"
+=======
+    print "Un texto increible..."
+>>>>>>> d1c3973580375ea3b8eac0fa2d9140cbee9368d0
 
     # Nacho
     suma= 4+5
