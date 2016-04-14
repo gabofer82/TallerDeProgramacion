@@ -20,7 +20,6 @@ if __name__ == '__main__':
     suma= 4+5
     print suma
     #  Guillermo
-d = {'Consonantes' :[m, l, r, p, q]
-    }
+    d = {'Consonantes' :[m, l, r, p, q]}
     print d
 
