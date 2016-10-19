@@ -1,0 +1,77 @@
+# Created by http://www.gitignore.io
+
+# Para ignorar gitignore (WTF!)
+.gitignore
+
+### SublimeText ###
+# workspace files are user-specific
+*.sublime-workspace
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+*.sublime-project
+
+#sftp configuration file
+sftp-config.json
+
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# Temporales
+*~
+
+#SQLITE DB
+*.db
+
+#TEMPORALES LIBRE OFFICE
+*.~lock*
+
+#VIRTUALENV
+virtualenv/
+
+#OTROS SEGUN PROYECTO
+bootstrap-3.3.4-dist
