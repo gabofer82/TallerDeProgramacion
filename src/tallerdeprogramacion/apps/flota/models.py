@@ -5,8 +5,8 @@ class Propietario(models.Model):
     nombre = models.CharField(max_length=30)
     domicilio = models.CharField(max_length=80)
     telefono = models.CharField(max_length=10)
-    externo = models.BooleanField(default=False)
     # si es una empresa que no pertenece al grupo
+    externo = models.BooleanField(default=False)
 
     def __str__(self):
         return '{}, {}'.format(self.nombre, self.telefono)
