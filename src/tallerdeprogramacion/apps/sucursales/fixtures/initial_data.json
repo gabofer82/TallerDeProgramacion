@@ -1,0 +1,423 @@
+[
+  {
+    "model": "sucursales.Departamento",
+    "pk": 0,
+    "fields": {
+      "nombre": "Artigas"
+    }
+  },
+  {
+    "model": "sucursales.Departamento",
+    "pk": 1,
+    "fields": {
+      "nombre": "Canelones"
+    }
+  },
+  {
+    "model": "sucursales.Departamento",
+    "pk": 2,
+    "fields": {
+      "nombre": "Cerro Largo"
+    }
+  },
+  {
+    "model": "sucursales.Departamento",
+    "pk": 3,
+    "fields": {
+      "nombre": "Colonia"
+    }
+  },
+  {
+    "model": "sucursales.Departamento",
+    "pk": 4,
+    "fields": {
+      "nombre": "Durazno"
+    }
+  },
+  {
+    "model": "sucursales.Departamento",
+    "pk": 5,
+    "fields": {
+      "nombre": "Flores"
+    }
+  },
+  {
+    "model": "sucursales.Departamento",
+    "pk": 6,
+    "fields": {
+      "nombre": "Florida"
+    }
+  },
+  {
+    "model": "sucursales.Departamento",
+    "pk": 7,
+    "fields": {
+      "nombre": "Lavalleja"
+    }
+  },
+  {
+    "model": "sucursales.Departamento",
+    "pk": 8,
+    "fields": {
+      "nombre": "Maldonado"
+    }
+  },
+  {
+    "model": "sucursales.Departamento",
+    "pk": 9,
+    "fields": {
+      "nombre": "Montevideo"
+    }
+  },
+  {
+    "model": "sucursales.Departamento",
+    "pk": 10,
+    "fields": {
+      "nombre": "Paysandú"
+    }
+  },
+  {
+    "model": "sucursales.Departamento",
+    "pk": 11,
+    "fields": {
+      "nombre": "Río Negro"
+    }
+  },
+  {
+    "model": "sucursales.Departamento",
+    "pk": 12,
+    "fields": {
+      "nombre": "Rivera"
+    }
+  },
+  {
+    "model": "sucursales.Departamento",
+    "pk": 13,
+    "fields": {
+      "nombre": "Rocha"
+    }
+  },
+  {
+    "model": "sucursales.Departamento",
+    "pk": 14,
+    "fields": {
+      "nombre": "Salto"
+    }
+  },
+  {
+    "model": "sucursales.Departamento",
+    "pk": 15,
+    "fields": {
+      "nombre": "San José"
+    }
+  },
+  {
+    "model": "sucursales.Departamento",
+    "pk": 16,
+    "fields": {
+      "nombre": "Soriano"
+    }
+  },
+  {
+    "model": "sucursales.Departamento",
+    "pk": 17,
+    "fields": {
+      "nombre": "Tacuarembó"
+    }
+  },
+  {
+    "model": "sucursales.Departamento",
+    "pk": 18,
+    "fields": {
+      "nombre": "Treinta y Tres"
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 0,
+    "fields": {
+      "nombre": "Artigas",
+      "tipo": "C",
+      "departamento": 0
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 1,
+    "fields": {
+      "nombre": "Bella Unión",
+      "tipo": "C",
+      "departamento": 0
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 2,
+    "fields": {
+      "nombre": "Constitución",
+      "tipo": "V",
+      "departamento": 14
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 3,
+    "fields": {
+      "nombre": "Valentín",
+      "tipo": "P",
+      "departamento": 14
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 4,
+    "fields": {
+      "nombre": "Paysandú",
+      "tipo": "C",
+      "departamento": 10
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 5,
+    "fields": {
+      "nombre": "Guichón",
+      "tipo": "C",
+      "departamento": 10
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 6,
+    "fields": {
+      "nombre": "Río Negro",
+      "tipo": "C",
+      "departamento": 11
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 7,
+    "fields": {
+      "nombre": "Young",
+      "tipo": "C",
+      "departamento": 11
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 8,
+    "fields": {
+      "nombre": "Soriano",
+      "tipo": "C",
+      "departamento": 16
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 9,
+    "fields": {
+      "nombre": "Mercedes",
+      "tipo": "C",
+      "departamento": 16
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 10,
+    "fields": {
+      "nombre": "Dolores",
+      "tipo": "V",
+      "departamento": 16
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 11,
+    "fields": {
+      "nombre": "Colonia",
+      "tipo": "C",
+      "departamento": 3
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 12,
+    "fields": {
+      "nombre": "Nueva Helvecia",
+      "tipo": "C",
+      "departamento": 3
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 13,
+    "fields": {
+      "nombre": "Flores",
+      "tipo": "C",
+      "departamento": 5
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 14,
+    "fields": {
+      "nombre": "San José",
+      "tipo": "C",
+      "departamento": 15
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 15,
+    "fields": {
+      "nombre": "Durazno",
+      "tipo": "C",
+      "departamento": 4
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 16,
+    "fields": {
+      "nombre": "Florida",
+      "tipo": "C",
+      "departamento": 6
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 17,
+    "fields": {
+      "nombre": "Tacuarembó",
+      "tipo": "C",
+      "departamento": 17
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 18,
+    "fields": {
+      "nombre": "Paso de los Toros",
+      "tipo": "C",
+      "departamento": 17
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 19,
+    "fields": {
+      "nombre": "Rivera",
+      "tipo": "C",
+      "departamento": 12
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 20,
+    "fields": {
+      "nombre": "Montevideo",
+      "tipo": "C",
+      "departamento": 9
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 21,
+    "fields": {
+      "nombre": "Canelones",
+      "tipo": "C",
+      "departamento": 1
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 22,
+    "fields": {
+      "nombre": "Pando",
+      "tipo": "C",
+      "departamento": 1
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 23,
+    "fields": {
+      "nombre": "Las Piedras",
+      "tipo": "C",
+      "departamento": 1
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 24,
+    "fields": {
+      "nombre": "Ciudad de la Costa",
+      "tipo": "C",
+      "departamento": 1
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 25,
+    "fields": {
+      "nombre": "Maldonado",
+      "tipo": "C",
+      "departamento": 8
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 26,
+    "fields": {
+      "nombre": "Piriápolis",
+      "tipo": "C",
+      "departamento": 8
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 27,
+    "fields": {
+      "nombre": "Rocha",
+      "tipo": "C",
+      "departamento": 13
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 28,
+    "fields": {
+      "nombre": "Chuy",
+      "tipo": "C",
+      "departamento": 13
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 29,
+    "fields": {
+      "nombre": "Lavalleja",
+      "tipo": "C",
+      "departamento": 7
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 30,
+    "fields": {
+      "nombre": "Treinta y Tres",
+      "tipo": "C",
+      "departamento": 18
+    }
+  },
+  {
+    "model": "sucursales.Localidad",
+    "pk": 31,
+    "fields": {
+      "nombre": "Cerro Largo",
+      "tipo": "C",
+      "departamento": 2
+    }
+  }
+]

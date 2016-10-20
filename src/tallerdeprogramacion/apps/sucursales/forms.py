@@ -1,6 +1,7 @@
 from django.forms import ModelForm
+from django.forms.models import inlineformset_factory
 
-from .models import Localidad, Parada, Sucursal
+from .models import Localidad, Parada, Sucursal, Telefono
 
 
 class LocalidadForm(ModelForm):
@@ -16,7 +17,10 @@ class ParadaForm(ModelForm):
 
 
 
-class SucursalForm(ModelForm):
-    class Meta:
-        model = Sucursal
-        fields = ('direccion', 'pisos', 'localidad',)  # y telefonos? con formset
+# class SucursalForm(ModelForm):
+#     class Meta:
+#         model = Sucursal
+#         fields = ('direccion', 'pisos', 'localidad',)  # y telefonos? con formset
+
+
+SucursalFormSet = inlineformset_factory(Sucursal, Telefono, extra=1)

@@ -1,0 +1,132 @@
+[
+  {
+    "model": "flota.Propietario",
+    "pk": 0,
+    "fields": {
+      "nombre": "Rutas de Sur",
+      "telefono": "22160050",
+      "domicilio": "Bulevar Artigas 4537",
+      "externo": false
+    }
+  },
+  {
+    "model": "flota.Propietario",
+    "pk": 1,
+    "fields": {
+      "nombre": "Litoral Viajes",
+      "telefono": "47345294",
+      "domicilio": "Uruguay 3497",
+      "externo": false
+    }
+  },
+  {
+    "model": "flota.Propietario",
+    "pk": 2,
+    "fields": {
+      "nombre": "Transporte Cuareim",
+      "telefono": "47778802",
+      "domicilio": "Rep. Argentina 5407",
+      "externo": false
+    }
+  },
+  {
+    "model": "flota.Propietario",
+    "pk": 3,
+    "fields": {
+      "nombre": "Turismo Olivares",
+      "telefono": "24085546",
+      "domicilio": "18 de Julio 3166",
+      "externo": true
+    }
+  },
+  {
+    "model": "flota.Coche",
+    "pk": 0,
+    "fields": {
+      "numero": "0101",
+      "marca": "Mercedes Benz",
+      "modelo": "O500RS",
+      "año": "2012",
+      "propietario": 0,
+      "ventanillas": 24,
+      "ventanillas_ocupadas": 24,
+      "pasillos": 0,
+      "pasillos_ocupados": 0
+    }
+  },
+  {
+    "model": "flota.Coche",
+    "pk": 1,
+    "fields": {
+      "numero": "0302",
+      "marca": "Mercedes Benz",
+      "modelo": "O500RSD",
+      "año": "2012",
+      "propietario": 0,
+      "ventanillas": 28,
+      "ventanillas_ocupadas": 28,
+      "pasillos": 0,
+      "pasillos_ocupados": 0
+    }
+  },
+  {
+    "model": "flota.Coche",
+    "pk": 2,
+    "fields": {
+      "numero": "0403",
+      "marca": "Mercedes Benz",
+      "modelo": "O500RS",
+      "año": "2012",
+      "propietario": 1,
+      "ventanillas": 24,
+      "ventanillas_ocupadas": 24,
+      "pasillos": 0,
+      "pasillos_ocupados": 0
+    }
+  },
+  {
+    "model": "flota.Coche",
+    "pk": 3,
+    "fields": {
+      "numero": "0501",
+      "marca": "Mercedes Benz",
+      "modelo": "O500RS",
+      "año": "2013",
+      "propietario": 2,
+      "ventanillas": 24,
+      "ventanillas_ocupadas": 24,
+      "pasillos": 0,
+      "pasillos_ocupados": 0
+    }
+  },
+  {
+    "model": "flota.Coche",
+    "pk": 4,
+    "fields": {
+      "numero": "0001",
+      "marca": "Mercedes Benz",
+      "modelo": "O500RSD",
+      "año": "2006",
+      "propietario": 2,
+      "ventanillas": 28,
+      "ventanillas_ocupadas": 28,
+      "pasillos": 0,
+      "pasillos_ocupados": 0
+    }
+  },
+  {
+    "model": "flota.Coche",
+    "pk": 5,
+    "fields": {
+      "numero": "0001",
+      "marca": "Mercedes Benz",
+      "modelo": "O500RSD",
+      "año": "2006",
+      "propietario": 3,
+      "ventanillas": 28,
+      "ventanillas_ocupadas": 28,
+      "pasillos": 0,
+      "pasillos_ocupados": 0
+    }
+  }
+]
