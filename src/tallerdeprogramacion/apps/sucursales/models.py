@@ -30,6 +30,9 @@ class Sucursal(models.Model):
     def __str__(self):
         return '{}, {}'.format(self.localidad, self.direccion)
 
+    class Meta:
+        permissions = ()
+
 
 class Telefono(models.Model):
     numero = models.CharField(max_length=12)
